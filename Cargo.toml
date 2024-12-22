@@ -1,0 +1,17 @@
+[package]
+name = "RustByExample"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.3.14"
+tokio = { version = "1", features = ["full"] }
+
+
+[[example]]
+name = "VecStringPlayground_1"
+path = "example/VecStringPlayground/main_1.rs"
+
+[[example]]
+name = "VecStringPlayground_2"
+path = "example/VecStringPlayground/main_2.rs"
